@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    border-top-right-radius: 1em;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    max-width: 300px;
+    padding: 20px;
+    border: 15px solid #131313;
+    background-color: burlywood;
+    
+}
+
+.display {
+    grid-column: span 4;
+    text-align: right;
+    padding: 20px;
+    background-color: #f0f0f0;
+    font-size: 1.5em;
+}
+
+button {
+    padding: 10px;
+    font-size: 2em;
+    cursor: pointer;
+    background-color: gray;
+}
